@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es2017",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "strict": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "jsx": "preserve"
+    },
+    "include": [
+        "resources/src/**/*"
+    ]
+}

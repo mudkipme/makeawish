@@ -1,0 +1,26 @@
+{
+    "title": "示例项目",
+    "portfolio": "画作相册",
+    "post": "大家的愿望",
+    "more-post": "查看更多愿望",
+    "alternative": "",
+    "message-placeholder": "留言",
+    "success": "感谢您参加署名。",
+    "form": {
+        "sign": "表愿署名：",
+        "total": "目前已有:number人参加",
+        "name": "姓名",
+        "name-placeholder": "输入您的姓名",
+        "email": "电子邮件",
+        "email-placeholder": "输入您的电子邮件地址",
+        "message": "留言（可选）",
+        "upload": "上传图片（可选）",
+        "public": "公开签名",
+        "submit-end": "署名已结束",
+        "submit": "表愿署名"
+    },
+    "share": "向朋友分享这个页面",
+    "thanks-title": "梦想实现了！",
+    "thanks-close": "大家的愿望",
+    "footer": "Copyright 2014 Lorem Ipsum"
+}

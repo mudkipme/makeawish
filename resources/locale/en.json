@@ -1,0 +1,26 @@
+{
+    "title": "Lorem Ipsum",
+    "portfolio": "Art Gallery",
+    "post": "Our Wishes",
+    "more-post": "Click to See More",
+    "alternative": "",
+    "message-placeholder": "Enter your message",
+    "success": "Thank you for signing this petition.",
+    "form": {
+        "sign": "Sign this petition",
+        "total": "With :number supporters",
+        "name": "Name",
+        "name-placeholder": "Enter your name",
+        "email": "Email",
+        "email-placeholder": "Enter your Email address",
+        "message": "Message (Optional)",
+        "upload": "Upload Related Picture (Optional)",
+        "public": "Display my signature on this page",
+        "submit-end": "This campaign has ended",
+        "submit": "Sign this petition"
+    },
+    "share": "Share This Page with Your Friends",
+    "thanks-title": "Our Dream Has Come True",
+    "thanks-close": "Read about the campaign",
+    "footer": "Copyright 2014 Lorem Ipsum"
+}

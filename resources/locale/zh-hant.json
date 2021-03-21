@@ -1,0 +1,26 @@
+{
+    "title": "示例項目",
+    "portfolio": "畫作相冊",
+    "post": "大家的願望",
+    "more-post": "查看更多願望",
+    "alternative": "",
+    "message-placeholder": "留言",
+    "success": "感謝您參加署名。",
+    "form": {
+        "sign": "表願署名：",
+        "total": "目前已有:number人參加",
+        "name": "姓名",
+        "name-placeholder": "輸入您的姓名",
+        "email": "電子郵件",
+        "email-placeholder": "輸入您的電子郵件地址",
+        "message": "留言（可選）",
+        "upload": "上傳圖片（可選）",
+        "public": "公開簽名",
+        "submit-end": "署名已結束",
+        "submit": "表願署名"
+    },
+    "share": "向朋友分享這個頁面",
+    "thanks-title": "夢想實現了！",
+    "thanks-close": "大家的願望",
+    "footer": "Copyright 2014 Lorem Ipsum"
+}

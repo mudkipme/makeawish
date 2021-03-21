@@ -1,0 +1,26 @@
+{
+    "title": "サンプルプロジェクト",
+    "portfolio": "アルバム",
+    "post": "みんなの声",
+    "more-post": "より多くのウィッシュを見て",
+    "alternative": "",
+    "message-placeholder": "コメントを入力",
+    "success": "署名していただきありがとうございます。",
+    "form": {
+        "sign": "今すぐ賛同：",
+        "total": ":number人の賛同者が集まりました",
+        "name": "名前",
+        "name-placeholder": "名前を入力",
+        "email": "メールアドレス",
+        "email-placeholder": "メールアドレスを入力",
+        "message": "コメント（任意）",
+        "upload": "関連画像をアップロード（任意）",
+        "public": "署名を公開する",
+        "submit-end": "署名は終了しました",
+        "submit": "今すぐ賛同"
+    },
+    "share": "拡散します",
+    "thanks-title": "夢が叶った！",
+    "thanks-close": "夢を見る",
+    "footer": "Copyright 2014 Lorem Ipsum"
+}
