@@ -89,5 +89,6 @@ export default defineComponent({
 .card-img-top {
     width: auto;
     height: auto;
+    max-width: 100%;
 }
 </style>

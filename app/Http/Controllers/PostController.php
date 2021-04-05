@@ -53,8 +53,7 @@ class PostController extends Controller
 
         DB::transaction(function () use ($postData, $source) {
             $source->posts()->create($postData);
-            $source->post_number = $source->post_number + 1;
-            $source->save();
+            $source->increment('post_number');
         });
 
         return back();

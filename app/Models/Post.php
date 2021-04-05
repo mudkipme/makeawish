@@ -85,8 +85,7 @@ class Post extends Model
             return false;
         }
 
-        $this->like_num += 1;
-        $this->save();
+        $this->increment('like_num');
         $likeList[$this->id] = true;
         Session::put('like_list', $likeList);
         return true;

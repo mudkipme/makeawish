@@ -23,18 +23,18 @@ export default defineComponent({
 
     setup(props) {
         const t = useLanguage();
-        const row = ref();
-        const masonry = ref();
+        const row = ref<Element>();
+        const masonry = ref<Masonry>();
 
         onMounted(() => {
-            imageloaded(row.value, () => {
-                masonry.value = new Masonry(row.value);
+            row.value && imageloaded(row.value, () => {
+                masonry.value = row.value && new Masonry(row.value);
             });
         });
 
         watch(() => props.portfolio, () => {
-            imageloaded(row.value, () => {
-                masonry.value.layout();
+            row.value && imageloaded(row.value, () => {
+                masonry.value?.layout?.();
             });
         });
 

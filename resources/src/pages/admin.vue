@@ -47,17 +47,19 @@ export default defineComponent({
     },
 
     setup(props) {
-        const row = ref();
-        const masonry = ref();
+        const row = ref<Element>();
+        const masonry = ref<Masonry>();
 
         onMounted(() => {
-            masonry.value = new Masonry(row.value);
+            if (row.value) {
+                masonry.value = new Masonry(row.value);
+            }
         });
 
         watch(() => props.posts, () => {
             nextTick(() => {
-                imageloaded(row.value, () => {
-                    masonry.value.layout();
+                row.value && imageloaded(row.value, () => {
+                    masonry.value?.layout?.();
                 });
             });
         });

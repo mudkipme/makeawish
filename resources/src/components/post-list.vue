@@ -31,25 +31,27 @@ export default defineComponent({
 
     setup(props) {
         const t = useLanguage();
-        const row = ref();
-        const masonry = ref();
-        const container = ref();
+        const row = ref<Element>();
+        const masonry = ref<Masonry>();
+        const container = ref<Element>();
 
         onMounted(() => {
-            masonry.value = new Masonry(row.value);
+            if (row.value) {
+                masonry.value = new Masonry(row.value);
+            }
         });
 
         watch(() => props.posts, () => {
             nextTick(() => {
-                imageloaded(row.value, () => {
-                    masonry.value.layout();
+                row.value && imageloaded(row.value, () => {
+                    masonry.value?.layout?.();
                 });
             });
         });
 
         const refresh = () => {
             Inertia.reload({ only: ['posts'] });
-            container.value.scrollIntoView();
+            container.value?.scrollIntoView();
         };
 
         return {

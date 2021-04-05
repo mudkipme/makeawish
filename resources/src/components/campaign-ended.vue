@@ -28,14 +28,16 @@ export default defineComponent({
 
     setup(props) {
         const t = useLanguage();
-        const modal = ref();
+        const modal = ref<Element>();
         const bsModal = ref<Modal>();
         const compiledAnnouncement = computed(() => props.announcement && marked(props.announcement));
 
         onMounted(() => {
-            const instance = new Modal(modal.value);
-            instance.show();
-            bsModal.value = instance;
+            if (modal.value) {
+                const instance = new Modal(modal.value);
+                instance.show();
+                bsModal.value = instance;
+            }
         });
 
         watch(compiledAnnouncement, () => {
