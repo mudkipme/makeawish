@@ -16,7 +16,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, PropType } from 'vue';
-import marked from 'marked';
+import { marked } from 'marked';
 import Layout from '../components/layout.vue';
 import Portfolio from '../components/portfolio.vue';
 import SignForm from '../components/sign-form.vue';

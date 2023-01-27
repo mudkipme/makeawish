@@ -18,7 +18,7 @@
 <script lang="ts">
 import { computed, defineComponent, onMounted, ref, watch } from 'vue';
 import { Modal } from 'bootstrap';
-import marked from 'marked';
+import { marked } from 'marked';
 import { useLanguage } from '../utils/language';
 
 export default defineComponent({
